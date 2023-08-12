@@ -1,0 +1,85 @@
+/* Reset some default styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.hero-content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff4b15;
+    color: white;
+    padding: 1rem 1%;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#about, #attractions, #contact {
+    padding: 5rem 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#about h2, #attractions h2, #contact h2 {
+    color: #050303;
+}
+
+#attractions .attraction {
+    margin: 2rem;
+}
+
+#attractions img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+#box{
+    border-style: solid;
+    border-width: 1px;
+}
